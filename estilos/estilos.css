@@ -18,4 +18,8 @@ header li a {
 }
 header li a:hover {
   font-weight: bold;
+}
+
+body {
+  background-color: grey;
 }/*# sourceMappingURL=estilos.css.map */
