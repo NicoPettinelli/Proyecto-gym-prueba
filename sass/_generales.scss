@@ -5,7 +5,7 @@
 }
 
 header{
-    background-color: black;
+    background-color: green;
 
     li{
         list-style-type: none;
@@ -24,5 +24,21 @@ header{
 }
 
 body{
-    background-color: grey;
+    background-color: greenyellow;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+footer{
+    background-color: green;
+    height: 100%;
+    margin-top: auto;
+}
+
+h1{
+    color: black;
+    padding: 40px;
+    text-align: center;
+    border: 10px solid black;
 }

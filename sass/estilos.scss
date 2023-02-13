@@ -1,1 +1,51 @@
 @import "generales";
+@import "precios";
+@import "galeria";
+@import "index";
+
+main{
+    margin-top: auto;
+}
+
+.divisor{
+    justify-content: space-between;
+}
+
+.press{
+    text-align: center;
+}
+
+.musculacion-actividad{
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+}
+
+.crossfit-actividad{
+    @extend .musculacion-actividad
+}
+
+.card{
+    background-color: rgb(74, 206, 96);
+}
+
+@mixin sizes ($width, $height){
+    height: $height;
+    width: $width;
+}
+
+.card-img-top{
+    @include sizes(262px, 163px)
+    }
+
+.ayh{
+    margin-left: 150px;
+}
+
+.consulta{
+    text-align: center;
+}
+
+.consul{
+    width: 90%;
+}
